@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link rel="stylesheet" href="styles.css"/> 
+</head>
+<body>
+    <header>
+        <a href="home.html" class="header-name">Testino Diprueba</a>
+        <nav>
+            <a href="home.html" class="header-inicio">Inicio</a>
+            <a href="portafolio.html" class="header-button">portafolio</a>
+        </nav>
+    </header>
+    <section, class="section-body">
+    <main class="container">
+        <h1>Calculadora IMC</h1>
+        <section class="form-group">
+          <label for="peso">Peso (Kg):</label>
+          <input
+            type="number"
+            name="peso"
+            id="peso"
+            required
+            placeholder="Escriba su peso aquí"
+          />
+        </section>
+        <section class="form-group">
+          <label for="altura">Altura (m):</label>
+          <input
+            type="number"
+            name="altura"
+            id="altura"
+            required
+            placeholder="Escriba su altura aquí"
+          />
+        </section>
+        <button onclick="IMC()">Calcular IMC</button>
+        <div id="resultado"></div>
+      </main>
+    </section,>
+      <script src="script.js"></script>
+</body>
+</html>

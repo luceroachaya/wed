@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: "Open Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #F3F4F6;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 8px auto; 
+    font-weight: 600;
+}
+
+/*estilos de header*/
+.header-name {
+    font-size: 30px;
+    line-height: 36px;
+    color:#111827 ;
+}
+
+.header-inicio{
+    font-size: 16px;
+    color: #DB2777;
+    padding: 4px 8px;
+}
+
+.header-button{
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background-color: #DB2777;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+}
+
+/*estilos de section 1*/
+.contenedor{
+    background-color: #D6D3D1;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #111827;
+}
+
+span{
+    font-weight: 600;
+    color: #DB2777;
+}
+
+.present{
+    max-width: 1024px ;
+    margin: 0px auto; 
+    padding: 32px 16px;
+}
+.presentacion-tx{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111827;
+    padding: 16px 0px;
+}
+/*estilos de section 2*/
+
+.contenedor1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 8px auto; 
+    font-weight: 600;
+}
+.present1{
+    max-width: 1024px ;
+    margin: 0px auto; 
+    padding: 32px 0;
+}
+h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 57.6px;
+    color: #111827;
+    text-align: center;
+}
+.present-seccion {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px; 
+    margin: 0px auto;
+    padding: 16px;
+}
+.present-icon {
+    display: flex;
+    justify-content:space-between;
+    max-width: 480px ;
+    margin: 6px auto; 
+}
+.present-parrafo {
+    max-width: 432px ;
+    margin: 0px 10px; 
+}
+h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111827;
+}
+h4{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #111827;
+}
+
+/*estilos de section imagenes*/
+.conten{
+    background-color: #E5E7EB;
+}
+.present2{
+    max-width: 1024px ;
+    margin: 0px auto; 
+    padding: 32px 0;
+}
+.present3{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 16px auto; 
+}
+h6{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+    text-align: center;
+}
+.presentacion-texto{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111827;
+    text-align: center;
+}
+.texfiguras{
+    width: 320px ;
+    align-items:normal;
+}
+
+/*estilos de section puedo ayudarte?*/
+h5{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #111827;
+    text-align: center;
+}
+
+.button1{
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-color: #DB2777;
+    padding: 14px 24px;
+    border-radius: 8px;
+}
+/*estilos de calculadora*/
+.section-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  input::placeholder{ /* pseudo-elemento*/
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #DB2777;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover{ /*pseudo-clase*/
+    background-color: #000408;
+  }
+  
+  button:active{ /*pseudo-clase*/
+    background-color: #111827;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+.centro{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
